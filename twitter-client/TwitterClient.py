@@ -35,7 +35,7 @@ class TwitterClient:
         containing it.
         """
         tweets = []
-        results = tweepy.Cursor(self.api.search, q='#helloworld').items(n)
+        results = tweepy.Cursor(self.api.search, q=hashtag).items(n)
         for tweet in results:
             tweets.append(tweet)
         return tweets
