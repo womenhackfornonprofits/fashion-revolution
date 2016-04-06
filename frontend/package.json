@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:womenhackfornonprofits/fashion-revolution.git"
+    "url": "git+ssh://git@github.com/womenhackfornonprofits/fashion-revolution.git"
   },
   "author": "",
   "license": "BSD-2-Clause",
@@ -20,5 +20,14 @@
     "grunt-contrib-sass": "~1.0.0",
     "grunt-contrib-watch": "~1.0.0",
     "grunt-contrib-cssmin": "~1.0.1"
-  }
+  },
+  "homepage": "https://github.com/womenhackfornonprofits/fashion-revolution#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "grunt": "^0.4.5",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "keywords": []
 }
