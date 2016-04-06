@@ -1,0 +1,40 @@
+@main-red: #ef5b58;
+@header-bottom-margin: 40px;
+@header-height: 200px;
+
+body {
+    background: @main-red;
+}
+
+#top-bar {
+    height: @header-height;
+    #logo-wrapper {
+        background: url('../img/FashRev_pattern.png');
+        height: @header-height;
+    }
+    #logo {
+        height: @header-height;
+        width: @header-height;
+        margin: 0 auto;
+        display: block;
+        position: relative;
+        top: @header-bottom-margin;
+    }
+}
+
+#introduction {
+    background: #ffffff;
+    padding-top: @header-bottom-margin;
+    padding-bottom: @header-bottom-margin;
+}
+
+.hashtag {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+a {
+    font-weight: bold;
+    color: #000000;
+    font-style: italic;
+}

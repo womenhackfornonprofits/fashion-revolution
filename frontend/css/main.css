@@ -1,0 +1,32 @@
+body {
+  background: #ef5b58;
+}
+#top-bar {
+  height: 200px;
+}
+#top-bar #logo-wrapper {
+  background: url('../img/FashRev_pattern.png');
+  height: 200px;
+}
+#top-bar #logo {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  top: 40px;
+}
+#introduction {
+  background: #ffffff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.hashtag {
+  font-weight: bold;
+  font-size: 25px;
+}
+a {
+  font-weight: bold;
+  color: #000000;
+  font-style: italic;
+}
